@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Login from "./Login/page";
+import Welcome from "@/component/Welcome/Welcome";
 
 export default function Home() {
   return (
     <main>
-      <Login />
+      <Welcome />
     </main>
   );
 }
